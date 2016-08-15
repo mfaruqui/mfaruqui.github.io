@@ -1,1 +1,839 @@
-Hello world
+<HEAD><TITLE>Manaal Faruqui</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK href="style.css" type=text/css rel=stylesheet>
+</HEAD>
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
+
+<BODY>
+
+<DIV id=top></DIV>
+<DIV id=wrapper2></DIV>
+<DIV id=wrapper>
+
+<!--<table align="center" width="600" cellpadding="0" border="0" class="border">
+<tr><td>-->
+
+
+<DIV id=headerwrap>
+<P><font size="5" color="6699cc"><b>Manaal Faruqui</b></font><br>
+manaalfar gmail com</a><br>
+<a href="cv.pdf">cv</a><br></P>
+
+<img alt="Manaal Faruqui" src="manaal.jpg" width="150" align=right hspace=30px padding=10>
+
+I am a PhD student working on natural language processing with
+<a href="http://www.cs.cmu.edu/~cdyer/">Chris Dyer</a> at
+<a href="http://lti.cs.cmu.edu/">Carnegie Mellon University</a>. My research
+focuses on distributional models of word representations. Previsouly, I was an
+undergraduate student in computer science and engineering at
+<a href="http://cse.iitkgp.ac.in/">IIT Kharagpur</a>, India.
+<P>
+
+<b>Update:</b> Research Scientist at Google NYC (Aug 2016 onwards).</P>
+
+(<a href="https://scholar.google.com/citations?user=W-CxZCgAAAAJ&hl=en&oi=ao">Google Scholar</a>) (<a href="https://github.com/mfaruqui/">Github</a>)
+
+<H1><SPAN class=title><a name="research">Selected Publications</a></SPAN></H1>
+
+<P><P>
+
+<div id="repeval16_bib" style="display:none">
+  <blockquote>
+  <pre>
+    @inproceedings{repeval:16,
+      author = {Faruqui, Manaal and Tsvetkov, Yulia and Rastogi, Pushpendre and Dyer, Chris},
+      title = {Problems With Evaluation of Word Embeddings Using Word Similarity Tasks},
+      booktitle = {Proc. of the 1st Workshop on Evaluating Vector Space Representations for NLP},
+      year = {2016},
+      url = {http://arxiv.org/pdf/1605.02276v1.pdf},
+    }
+  </pre>
+  </blockquote>
+  </div>
+
+  <div id="repeval16_abs" style="display:none">
+  <blockquote>
+  <pre>
+  Lacking standardized extrinsic evaluation methods for vector representations
+  of words, the NLP community has relied heavily on word similarity tasks as a
+  proxy for intrinsic evaluation of word vectors. Word similarity evaluation,
+  which correlates the distance between vectors and human judgments of semantic
+  similarity is attractive, because it is computationally inexpensive and fast.
+  In this paper we present several problems associated with the evaluation of
+  word vectors on word similarity datasets, and summarize existing solutions.
+  Our study suggests that the use of word similarity tasks for evaluation of
+  word vectors is not sustainable and calls for further research on evaluation
+  methods.
+  </pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="http://arxiv.org/abs/1605.02276">Problems With Evaluation of Word Embeddings Using Word Similarity Tasks</a><br>
+  Manaal Faruqui, Yulia Tsvetkov, Pushpendre Rastogi, Chris Dyer, <b>RepEval 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/repeval16/abstract');" href="javascript:copy(repeval16, repeval16_abs)">abstract</a>]&nbsp;&nbsp;
+  [<a onClick="javascript:urchinTracker('/repeval16/bibtex');" href="javascript:copy(repeval16, repeval16_bib)">bibtex</a>]&nbsp;&nbsp;
+  <br>
+  <div id="repeval16"></div>
+  </li></ul>
+
+<div id="thesis_bib" style="display:none">
+  <blockquote>
+  <pre>
+  @phdthesis{faruquithesis,
+    author       = {Faruqui, Manaal}, 
+    title        = {Diverse Context for Learning Word Representations},
+    school       = {Carnegie Mellon University},
+    year         = 2016,
+  }
+  </pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="http://www.cs.cmu.edu/~mfaruqui/papers/thesis.pdf">Diverse Context for Learning Word Representations</a><br>
+  Manaal Faruqui, <b>PhD Thesis 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/thesis/bibtex');" href="javascript:copy(thesis, thesis_bib)">bibtex</a>]
+&nbsp;&nbsp;
+  <br>
+  <div id="thesis"></div>
+  </li></ul>
+
+  <div id="acl16cur_bib" style="display:none">
+  <blockquote>
+  <pre>
+    @inproceedings{currembed:16,
+      author = {Tsvetkov, Yulia and Faruqui, Manaal and Ling, Wang and Dyer, Chris},
+      title = {Learning the Curriculum with Bayesian Optimization for Task-Specific
+               Word Representation Learning},
+      booktitle = {Proc. of ACL},
+      year = {2016},
+    }
+  </pre>
+  </blockquote>
+  </div>
+
+  <div id="acl16cur_abs" style="display:none">
+  <blockquote>
+  <pre>
+  We use Bayesian optimization to learn curricula for word representation learning,
+  optimizing performance on downstream tasks that depend on the learned representations
+  as features. The curricula are modeled by a linear ranking function which is the scalar
+  product of a learned weight vector and an engineered feature vector that characterizes
+  the different aspects of the complexity of each instance in the training corpus. We show
+  that learning the curriculum improves performance on a variety of downstream tasks over
+  random orders and in comparison to the natural corpus order.
+  </pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="http://arxiv.org/abs/1605.03852">Learning the Curriculum with Bayesian Optimization for Task-Specific Word Representation Learning</a><br>
+  Yulia Tsvetkov, Manaal Faruqui, Wang Ling, and Chris Dyer, <b>ACL 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/acl16cur/abstract');" href="javascript:copy(acl16cur, acl16cur_abs)">abstract</a>]&nbsp;&nbsp;
+  [<a onClick="javascript:urchinTracker('/acl16cur/bibtex');" href="javascript:copy(acl16cur, acl16cur_bib)">bibtex</a>]&nbsp;&nbsp;
+  <br>
+  <div id="acl16cur"></div>
+  </li></ul>
+
+  <div id="acl16_bib" style="display:none">
+  <blockquote>
+  <pre>
+    @inproceedings{bicompare:16,
+      author = {Upadhyay, Shyam and Faruqui, Manaal  and Dyer, Chris and Roth, Dan},
+      title = {Cross-lingual Models of Word Embeddings: An Empirical Comparison},
+      booktitle = {Proc. of ACL},
+      year = {2016},
+    }
+  </pre>
+  </blockquote>
+  </div>
+
+  <div id="acl16_abs" style="display:none">
+  <blockquote>
+  <pre>
+  Despite interest in using cross-lingual knowledge to learn word embeddings for
+  various tasks, a systematic comparison of the possible approaches is lacking in the
+  literature. We perform an extensive evaluation of four popular approaches of inducing
+  cross-lingual embeddings, each requiring a different form of supervision, on four
+  typographically different language pairs. Our evaluation setup spans four different
+  tasks, including intrinsic evaluation on mono-lingual and cross-lingual similarity,
+  and extrinsic evaluation on downstream semantic and syntactic applications. We
+  show that models which require expensive cross-lingual knowledge almost always
+  perform better, but cheaply supervised models often prove competitive on certain tasks.
+  </pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="http://arxiv.org/abs/1604.00425">Cross-lingual Models of Word Embeddings: An Empirical Comparison</a><br>
+  Shyam Upadhyay, Manaal Faruqui, Chris Dyer, and Dan Roth, <b>ACL 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/acl16/abstract');" href="javascript:copy(acl16, acl16_abs)">abstract</a>]&nbsp;&nbsp;
+  [<a onClick="javascript:urchinTracker('/acl16/bibtex');" href="javascript:copy(acl16, acl16_bib)">bibtex</a>]&nbsp;&nbsp;
+  <br>
+  <div id="acl16"></div>
+  </li></ul>
+
+
+  <div id="tacl16_bib" style="display:none">
+  <blockquote>
+  <pre>
+    @article{TACL730,
+      author = {Faruqui, Manaal  and McDonald, Ryan  and Soricut, Radu},
+      title = {Morpho-syntactic Lexicon Generation Using Graph-based Semi-supervised Learning},
+      journal = {Transactions of the Association for Computational Linguistics},
+      volume = {4},
+      year = {2016},
+      ssn = {2307-387X},
+      url = {https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/730},
+      pages = {1--16}
+    }
+
+  </pre>
+  </blockquote>
+  </div>
+
+  <div id="tacl16_abs" style="display:none">
+  <blockquote>
+  <pre>
+  Morpho-syntactic lexicons provide information about the morphological and
+  syntactic roles of words in a language. Such lexicons are not available for all
+  languages and even when available, their coverage can be limited.We present a
+  graph-based semi-supervised learning method that uses the morphological,
+  syntactic and semantic relations betweenwords to automatically construct wide
+  coverage lexicons from small seed sets. Our method is language-independent, and
+  we show that we can expand a 1000 word seed lexicon to more than 100 times its
+  size with high quality for 11 languages. In addition, the automatically created
+  lexicons provide features that improve performance in two downstream tasks:
+  morphological tagging and dependency parsing.
+  </pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="papers/tacl16-lexicon.pdf">Morpho-syntactic Lexicon Generation Using Graph-based Semi-supervised Learning</a><br>
+  Manaal Faruqui, Ryan McDonald, and Radu Soricut, <b>TACL 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/tacl16/abstract');" href="javascript:copy(tacl16, tacl16_abs)">abstract</a>]&nbsp;&nbsp;
+  [<a onClick="javascript:urchinTracker('/tacl16/bibtex');" href="javascript:copy(tacl16, tacl16_bib)">bibtex</a>]&nbsp;&nbsp;
+  <br>
+  <div id="tacl16"></div>
+  </li></ul>
+
+<div id="naacl16_bib" style="display:none">
+<blockquote>
+<pre>
+  @inproceedings{faruqui:2016:infl,
+    author    = {Faruqui, Manaal and Tsvetkov, Yulia and Neubig, Graham and Dyer, Chris},
+    title     = {Morphological Inflection Generation Using Character Sequence to Sequence Learning},
+    booktitle = {Proc. of NAACL},
+    year      = {2016},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="naacl16_abs" style="display:none">
+<blockquote>
+<pre>
+Morphological inflection generation is the task of generating the inflected
+form of a given lemma corresponding to a particular linguistic transformation.
+We model the problem of inflection generation as a character sequence to
+sequence learning problem and present a variant of the neural encoder-decoder
+model for solving it. Our model is language independent and can be trained in
+both supervised and semi-supervised settings. We evaluate our system on seven
+datasets of morphologically rich languages and achieve either better or
+comparable results to existing state-of-the-art models of inflection generation.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/naacl16-inflection.pdf">Morphological Inflection Generation Using Character Sequence to Sequence Learning</a><br>
+Manaal Faruqui, Yulia Tsvetkov, Graham Neubig, and Chris Dyer, <b>NAACL 2016</b><br>
+[<a onClick="javascript:urchinTracker('/naacl16/abstract');" href="javascript:copy(naacl16, naacl16_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/naacl16/bibtex');" href="javascript:copy(naacl16, naacl16_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://github.com/mfaruqui/morph-trans">tool</a>]
+<br>
+<div id="naacl16"></div>
+</li></ul>
+
+<div id="naacl16phon_bib" style="display:none">
+<blockquote>
+<pre>
+  @inproceedings{tsvetkov:2016:phon,
+    author    = {Tsvetkov,Yulia and Sitaram,Sunayana and Faruqui, Manaal and Lample, Guillaume and Littell, Patrick and Mortensen,David  and Black, Alan W. and Levin, Lori and Dyer, Chris},
+    title     = {Polyglot Neural Language Models: Case Study in Cross-Lingual Phonetic Representation Learning},
+    booktitle = {Proc. of NAACL},
+    year      = {2016},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="naacl16phon_abs" style="display:none">
+<blockquote>
+<pre>
+We introduce polyglot language models, recurrent neural network models trained
+to predict symbol sequences in many different languages using shared
+representations of symbols and conditioning on typological information about
+the language to be predicted. We apply these to the problem of modeling phone
+sequences—a domain in which universal symbol inventories and
+cross-linguistically shared feature representations are a natural fit.
+Intrinsic evaluation on held-out perplexity, qualitative analysis of the
+learned representations, and extrinsic evaluation in two downstream
+applications that make use of phonetic features show (i) that polyglot models
+better generalize to held-out data than comparable monolingual models and (ii)
+that polyglot phonetic feature representations are of higher quality than those
+learned monolingually.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/naacl16-phonology.pdf">Polyglot Neural Language Models:
+Case Study in Cross-Lingual Phonetic Representation Learning</a><br>
+Yulia Tsvetkov, Sunayana Sitaram, Manaal Faruqui, Guillaume Lample,<br> Patrick
+Littell, David Mortensen, Alan Black, Lori Levin, and Chris Dyer, <b>NAACL
+2016</b><br>
+[<a onClick="javascript:urchinTracker('/naacl16phon/abstract');" href="javascript:copy(naacl16phon, naacl16phon_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/naacl16/bibtex');" href="javascript:copy(naacl16phon, naacl16phon_bib)">bibtex</a>]
+<br>
+<div id="naacl16phon"></div>
+</li></ul>
+
+<div id="emnlp15_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{tsvetkov:2015:eval,
+    author = {Tsvetkov, Yulia and Faruqui, Manaal and Ling, Wang and Lample, Guillaume and Dyer, Chris},
+    title = {Evaluation of Word Vector Representations by Subspace Alignment},
+    booktitle = {Proc. of EMNLP},
+    year = {2015}
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="emnlp15_abs" style="display:none">
+<blockquote>
+<pre>
+Unsupervisedly learned word vectors have proven to provide exceptionally
+effective features in many NLP tasks. Most common intrinsic evaluations of
+vector quality measure correlation with similarity judgments. However, these
+often correlate poorly with how well the learned representations perform as
+features in downstream evaluation tasks. We present QVEC--a computationally
+inexpensive intrinsic evaluation measure of the quality of word embeddings
+based on alignment to a matrix of features extracted from manually crafted
+lexical resources--that obtains strong correlation with performance of the
+vectors in a battery of downstream semantic evaluation tasks.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/emnlp15-qvec.pdf">Evaluation of Word Vector Representations by Subspace Alignment</a><br>Yulia Tsvetkov, Manaal Faruqui, Wang Ling, Guillaume Lample, and Chris Dyer. <b>EMNLP 2015 (short)</b><br>
+[<a onClick="javascript:urchinTracker('/emnlp15/abstract');" href="javascript:copy(emnlp15, emnlp15_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/emnlp15/bibtex');" href="javascript:copy(emnlp15, emnlp15_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://github.com/ytsvetko/qvec">tool</a>]
+<br>
+<div id="emnlp15"></div>
+</li></ul>
+
+<div id="acl15_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui:2015:sparse,
+    author    = {Faruqui, Manaal and Tsvetkov, Yulia and Yogatama, Dani and Dyer, Chris and Smith, Noah A.},
+    title     = {Sparse Overcomplete Word Vector Representations},
+    booktitle = {Proc. of ACL},
+    year      = {2015},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="acl15_abs" style="display:none">
+<blockquote>
+<pre>
+Current distributed representations of words show little resemblance to theories
+of lexical semantics. The former are dense and uninterpretable, the latter
+largely based on familiar, discrete classes (e.g., supersenses) and relations
+(e.g., synonymy and hypernymy). We propose methods that transform word vectors
+into sparse (and optionally binary) vectors. The resulting representations are
+more similar to the interpretable features typically used in NLP, though they
+are discovered automatically from raw corpora. Because the vectors are highly
+sparse, they are computationally easy to work with. Most importantly, we find
+that they outperform the original vectors on benchmark tasks.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/acl15-overcomplete.pdf">Sparse Overcomplete Word Vector Representations</a><br>
+Manaal Faruqui, Yulia Tsvetkov, Dani Yogatama, Chris Dyer, and Noah Smith,
+<b>ACL 2015</b><br>
+[<a onClick="javascript:urchinTracker('/acl15/abstract');" href="javascript:copy(acl15, acl15_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/acl15/bibtex');" href="javascript:copy(acl15, acl15_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://github.com/mfaruqui/sparse-coding">tool</a>]&nbsp;&nbsp;
+[<a href="http://techtalks.tv/talks/sparse-overcomplete-word-vector-representations/61799/">talk</a>]
+<br>
+<div id="acl15"></div>
+</li></ul>
+
+<div id="acl15non_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui:2015:non-dist,
+    author    = {Faruqui, Manaal and Dyer, Chris},
+    title     = {Non-distributional Word Vector Representations},
+    booktitle = {Proc. of ACL},
+    year      = {2015},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="acl15non_abs" style="display:none">
+<blockquote>
+<pre>
+Data-driven representation learning for words is a technique of central
+importance in NLP. While indisputably useful as a source of features in
+downstream tasks, such vectors tend to consist of uninterpretable components
+whose relationship to the categories of traditional lexical semantic theories
+is tenuous at best. We present a method for constructing interpretable word
+vectors from hand-crafted linguistic resources like WordNet, FrameNet etc.
+These vectors are binary (i.e, contain only 0 and 1) and are 99.9% sparse. We
+analyze their performance on state-of-the-art evaluation methods for
+distributional models of word vectors and find they are competitive to standard
+distributional approaches.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/acl15-overcomplete.pdf">Non-distributional Word Vector Representations</a><br>
+Manaal Faruqui and Chris Dyer,
+<b>ACL 2015 (short)</b><br>
+[<a onClick="javascript:urchinTracker('/acl15non/abstract');" href="javascript:copy(acl15non, acl15non_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/acl15non/bibtex');" href="javascript:copy(acl15non, acl15non_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://github.com/mfaruqui/non-distributional">data</a>]
+<br>
+<div id="acl15non"></div>
+</li></ul>
+
+<div id="icml15_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{yoga:2015:hierarchical,
+    author    = {Yogatama, Dani and Faruqui, Manaal and and Dyer, Chris and Smith, Noah A.},
+    title     = {Learning Word Representations with Hierarchical Sparse Coding},
+    booktitle = {Proc. of ICML},
+    year      = {2015},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="icml15_abs" style="display:none">
+<blockquote>
+<pre>
+We propose a new method for learning word representations using hierarchical
+regularization in sparse coding inspired by the linguistic study of word
+meanings. We show an efficient learning algorithm based on stochastic proximal
+methods that is significantly faster than previous approaches, making it
+possible to perform hierarchical sparse coding on a corpus of billions of word
+tokens. Experiments on various benchmark tasks---word similarity ranking,
+analogies, sentence completion, and sentiment analysis---demonstrate that the
+method outperforms or is competitive with state-of-the-art methods.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/icml15-hierarchical.pdf">Learning word Representations with Hierarchical Sparse Coding</a><br>
+Dani Yogatama, Manaal Faruqui, Chris Dyer, and Noah Smith,
+<b>ICML 2015</b><br>
+[<a onClick="javascript:urchinTracker('/icml15/abstract');" href="javascript:copy(icml15, icml15_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/icml15/bibtex');" href="javascript:copy(icml15,icml15_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="http://www.cs.cmu.edu/~ark/dyogatam/wordvecs/">data</a>]
+<br>
+<div id="icml15"></div>
+</li></ul>
+
+<div id="naacl15_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui:2015:relation,
+    author    = {Faruqui, Manaal and Kumar, Shankar},
+    title     = {Multilingual Open Relation Extraction Using Cross-lingual Projection},
+    booktitle = {Proc. of NAACL},
+    year      = {2015}
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="naacl15_abs" style="display:none">
+<blockquote>
+<pre>
+Open domain relation extraction systems identify relation and argument phrases
+in a sentence without relying on any underlying schema. However, current
+state-of-the-art relation extraction systems are available only for English
+because of their heavy reliance on linguistic tools such as part-of-speech
+taggers and dependency parsers. We present a cross-lingual annotation
+projection method for language independent relation extraction. We evaluate our
+method on  a manually annotated test set and present results on three
+typologically different languages. We release these manual annotations and
+extracted relations in 61 languages from Wikipedia.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/naacl15-relation.pdf">Multilingual Open Relation Extraction
+Using Cross-lingual Projection</a><br>
+Manaal Faruqui and Shankar Kumar,
+<b>NAACL 2015 (short)</b><br>
+[<a onClick="javascript:urchinTracker('/naacl15/abstract');" href="javascript:copy(naacl15, naacl15_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/naacl15/bibtex');" href="javascript:copy(naacl15,naacl15_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://console.developers.google.com/storage/browser/wikipedia_multilingual_relations_v1/multilingual_relations_data/">data</a>]
+<br>
+<div id="naacl15"></div>
+</li></ul>
+
+<div id="naacl15retro_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui:2015:Retro,
+    author    = {Faruqui, Manaal and Dodge, Jesse and Jauhar, Sujay K.  and  Dyer, Chris and Hovy, Eduard and Smith, Noah A.},
+    title     = {Retrofitting Word Vectors to Semantic Lexicons},
+    booktitle = {Proc. of NAACL},
+    year      = {2015}
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="naacl15retro_abs" style="display:none">
+<blockquote>
+<pre>
+Vector space word representations are learned from distributional information
+of words in large corpora. Although such statistics are semantically
+informative, they disregard the valuable information that is contained in
+semantic lexicons such as WordNet, FrameNet, and the Paraphrase Database. This
+paper proposes a method for refining vector space representations using
+relational information from semantic lexicons by encouraging linked words to
+have similar vector representations, and it makes no assumptions about how the
+input vectors were constructed. Evaluated on a battery of standard lexical
+semantic evaluation tasks in several languages, we obtain substantial
+improvements starting with a variety of word vector models. Our refinement
+method outperforms prior techniques for incorporating semantic lexicons into
+word vector training algorithms.
+</pre>
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/naacl15-retrofitting.pdf">Retrofitting Word Vectors to Semantic Lexicons</a><br>
+Manaal Faruqui, Jesse Dodge, Sujay Jauhar, Chris Dyer, Eduard Hovy, and Noah Smith,
+<b>NAACL 2015</b><br>
+<b>Best Student Paper Award</b><br>
+[<a onClick="javascript:urchinTracker('/naacl15retro/abstract');" href="javascript:copy(naacl15retro, naacl15retro_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/naacl15/bibtex');" href="javascript:copy(naacl15retro,naacl15retro_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://github.com/mfaruqui/retrofitting">tool</a>]&nbsp;&nbsp;
+[<a href="http://naacl.org/naacl-hlt-2015/best-paper-awards.html">proof</a>]
+&nbsp;&nbsp;
+[<a href="http://techtalks.tv/talks/retrofitting-word-vectors-to-semantic-lexicons/61553/">talk</a>]
+
+<br>
+<div id="naacl15retro"></div>
+</li></ul>
+
+<div id="acl14demo_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui-2014:SystemDemo,
+    author    = {Faruqui, Manaal  and  Dyer, Chris},
+    title     = {Community Evaluation and Exchange of Word Vectors at wordvectors.org},
+    booktitle = {Proc. of ACL: System Demonstrations},
+    year      = {2014},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="acl14demo_abs" style="display:none">
+<blockquote>
+<pre>
+Vector space word representations are useful for many natural language
+processing applications. The diversity of techniques for computing vector
+representations and the large number of evaluation benchmarks makes reliable
+comparison a tedious task both for researchers developing new vector space
+models and for those wishing to use them. We present a website and suite of
+offline tools that that facilitate evaluation of word vectors on standard
+lexical semantics benchmarks and permit exchange and archival by users who wish
+to find good vectors for their applications. The system is accessible at:
+www.wordvectors.org
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/acl14-vecdemo.pdf">Community Evaluation and Exchange of Word Vectors at wordvectors.org</a><br>
+Manaal Faruqui and Chris Dyer, <b>ACL 2014 (demo)</b><br>
+[<a onClick="javascript:urchinTracker('/acl14demo/abstract');" href="javascript:copy(acl14demo, acl14demo_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/acl14demo/bibtex');" href="javascript:copy(acl14demo, acl14demo_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="http://www.wordvectors.org/">tool</a>]&nbsp;&nbsp;
+
+<br>
+<div id="acl14demo"></div>
+</li></ul>
+
+<div id="eacl14_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui-dyer:2014:EACL,
+    author    = {Faruqui, Manaal  and  Dyer, Chris},
+    title     = {Improving Vector Space Word Representations Using Multilingual Correlation},
+    booktitle = {Proc. of EACL},
+    year      = {2014},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="eacl14_abs" style="display:none">
+<blockquote>
+<pre>
+The distributional hypothesis of Harris (1954), according to which the meaning
+of words is evidenced by the contexts they occur in, has motivated several
+effective techniques for obtaining vector space semantic representations of
+words using unannotated text corpora. This paper argues that lexico-semantic
+content should additionally be invariant across languages and proposes a simple
+technique based on canonical correlation analysis (CCA) for incorporating
+multilingual evidence into vectors generated monolingually. We evaluate the
+resulting word representations on standard lexical semantic evaluation tasks
+and show that our method produces substantially better semantic representations
+than monolingual techniques.
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/eacl14-vectors.pdf">Improving Vector Space Word
+Representations Using Multilingual Correlation</a><br>
+Manaal Faruqui and Chris Dyer, <b>EACL 2014</b><br>
+[<a onClick="javascript:urchinTracker('/eacl14/abstract');" href="javascript:copy(eacl14, eacl14_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/eacl14/bibtex');" href="javascript:copy(eacl14, eacl14_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="https://github.com/mfaruqui/crosslingual-cca">tool</a>]&nbsp;&nbsp;
+[<a href="http://wordvectors.org/eacl14-data.tar">corpora</a>]&nbsp;&nbsp;
+[<a href="http://www.wordvectors.org/web-eacl14-vectors/de-projected-en-512.txt.gz">vectors</a>]
+
+<br>
+<div id="eacl14"></div>
+</li></ul>
+
+<div id="acl13_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui-dyer:2013:Short,
+    author    = {Faruqui, Manaal  and  Dyer, Chris},
+    title     = {An Information Theoretic Approach to Bilingual Word Clustering},
+    booktitle = {Proc. of ACL},
+    year      = {2013},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="acl13_abs" style="display:none">
+<blockquote>
+<pre>
+We present an information theoretic objective for bilingual word clustering
+that incorporates both monolingual distributional evidence as well as
+cross-lingual evidence from parallel corpora to learn high quality word
+clusters jointly in any number of languages. The monolingual component of our
+objective is the average mutual information of clusters of adjacent words in
+each language, while the bilingual component is the average mutual information
+of the aligned clusters. To evaluate our method, we use the word clusters in an
+NER system and demonstrate a statistically significant improvement in F1 score
+when using bilingual word clusters instead of monolingual clusters.
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/acl13-clustering.pdf">An Information Theoretic Approach to Bilingual Word Clustering</a><br>
+Manaal Faruqui and Chris Dyer, <b>ACL 2013 (short)</b><br>
+[<a onClick="javascript:urchinTracker('/acl13/abstract');" href="javascript:copy(acl13, acl13_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/acl13/bibtex');" href="javascript:copy(acl13, acl13_bib)">bibtex</a>]&nbsp;&nbsp;
+
+<br>
+<div id="acl13"></div>
+</li></ul>
+
+<div id="eacl12_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui-pado:2012:EACL2012,
+    author    = {Faruqui, Manaal  and  Pado, Sebastian},
+    title     = {Towards a model of formal and informal address in English},
+    booktitle = {Proc. of EACL},
+    year      = {2012},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="eacl12_abs" style="display:none">
+<blockquote>
+<pre>
+Informal and formal (“T/V”) address in dialogue is not distinguished overtly in
+modern English, e.g. by pronoun choice like in many other languages such as
+French (“tu”/“vous”). Our study investigates the status of the T/V distinction
+in English literary texts. Our main findings are: (a) human raters can label
+monolingual English utterances as T or V fairly well, given sufficient context;
+(b), a bilingual corpus can be exploited to induce a supervised classifier for
+T/V without human annotation. It assigns T/V at sentence level with up to 68%
+accuracy, relying mainly on lexical features; (c), there is a marked asymmetry
+between lexical features for formal speech (which are conventionalized and
+therefore general) and informal speech (which are text-specific).
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/E12-1064.pdf">Towards a model of formal and informal address in English</a><br>
+Manaal Faruqui and Sebatian Padó, <b>EACL 2012</b><br>
+[<a onClick="javascript:urchinTracker('/eacl12/abstract');" href="javascript:copy(eacl12, eacl12_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/eacl12/bibtex');" href="javascript:copy(eacl12, eacl12_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="http://www.nlpado.de/~sebastian/data/tv_data.shtml">data</a>]
+
+<br>
+<div id="eacl12"></div>
+</li></ul>
+
+<div id="acl11_bib" style="display:none">
+<blockquote>
+<pre>
+  @InProceedings{faruqui-pado:2011:ACL-HLT2011,
+    author    = {Faruqui, Manaal  and  Pad\'{o}, Sebastian},
+    title     = {``I Thou Thee, Thou Traitor'': Predicting Formal vs. Informal Address in English Literature},
+    booktitle = {Proc. of ACL},
+    year      = {2011},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="acl11_abs" style="display:none">
+<blockquote>
+<pre>
+In contrast to many languages (like Russian or French), modern English does not
+distinguish formal and informal (“T/V”) address overtly, for example by pronoun
+choice. We describe an ongoing study which investigates to what degree the T/V
+distinction is recoverable in English text, and with what textual features it
+correlates. Our findings are: (a) human raters can label English utterances as
+T or V fairly well, given sufficient context; (b), lexical cues can predict T/V
+almost at human level.
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/P11-2082.pdf">"I thou thee, thou traitor": Predicting formal vs. informal address in English literature</a><br>
+Manaal Faruqui and Sebatian Padó, <b>ACL 2011 (short)</b><br>
+[<a onClick="javascript:urchinTracker('/acl11/abstract');" href="javascript:copy(acl11, acl11_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/acl11/bibtex');" href="javascript:copy(acl11, acl11_bib)">bibtex</a>]&nbsp;&nbsp;
+<br>
+<div id="acl11"></div>
+</li></ul>
+
+
+<div id="iwcs11_bib" style="display:none">
+<blockquote>
+<pre>
+  @inproceedings{faruqui2011acquiring,
+    title={Acquiring entailment pairs across languages and domains: A data analysis},
+    author={Faruqui, Manaal and Pad{\'o}, Sebastian},
+    booktitle={Proc. of IWCS},
+    year={2011}
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="iwcs11_abs" style="display:none">
+<blockquote>
+<pre>
+Entailment pairs are sentence pairs of a premise and a hypothesis, where the
+premise textually entails the hypothesis. Such sentence pairs are important for
+the development of Textual Entailment systems. In this paper, we take a closer
+look at a prominent strategy for their automatic acquisition from newspaper
+corpora, pairing first sentences of articles with their titles. We propose a
+simple logistic regression model that incorporates and extends this heuristic
+and investigate its robustness across three languages and three domains. We
+manage to identify two predictors which predict entailment pairs with a fairly
+high accuracy across all languages. However, we find that robustness across
+domains within a language is more difficult to achieve.
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/W11-0111.pdf">Acquiring entailment pairs across languages
+and domains: A data analysis</a><br>
+Manaal Faruqui and Sebatian Padó, <b>IWCS 2011 </b><br>
+[<a onClick="javascript:urchinTracker('/acl11/abstract');" href="javascript:copy(iwcs11, iwcs11_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/acl11/bibtex');" href="javascript:copy(iwcs11, iwcs11_bib)">bibtex</a>]&nbsp;&nbsp;
+<br>
+<div id="iwcs11"></div>
+</li></ul>
+
+<div id="kon10_bib" style="display:none">
+<blockquote>
+<pre>
+  @inproceedings{faruqui2010training,
+    title={Training and Evaluating a German Named Entity Recognizer with Semantic Generalization},
+    author={Faruqui, Manaal and Pad{\'o}, Sebastian},
+    booktitle={Proc. of KONVENS 2010},
+    year={2010},
+  }
+</pre>
+</blockquote>
+</div>
+
+<div id="kon10_abs" style="display:none">
+<blockquote>
+<pre>
+We present a freely available optimized Named Entity Recognizer (NER) for
+German. It alleviates the small size of available NER training corpora for
+German with distributional generalization features trained on large unlabelled
+corpora. We vary the size and source of the generalization corpus and find
+improvements of 6% F1 score (in-domain) and 9% (out-of-domain) over simple
+supervised training.
+</blockquote>
+</div>
+
+<ul>
+<li><a href="papers/konvens10_faruqui.pdf">Training and Evaluating a German Named Entity Recognizer with Semantic Generalization</a><br>
+Manaal Faruqui and Sebatian Padó, <b>KONVENS 2010 (short)</b><br>
+[<a onClick="javascript:urchinTracker('/kon10/abstract');" href="javascript:copy(kon10, kon10_abs)">abstract</a>]&nbsp;&nbsp;
+[<a onClick="javascript:urchinTracker('/kon10/bibtex');" href="javascript:copy(kon10, kon10_bib)">bibtex</a>]&nbsp;&nbsp;
+[<a href="http://www.nlpado.de/~sebastian/software/ner_german.shtml">tool</a>]
+<br>
+<div id="kon10"></div>
+</li></ul>
+
+</DIV></DIV></DIV></DIV>
+
+<!--</td></tr></table>-->
+
+</BODY></HTML>

@@ -1,0 +1,214 @@
+/* LAYOUT
+_________________________________________________*/
+
+.border {border:2px solid #cccccc;}
+
+body {
+        font: 100% arial, helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	text-align:center;
+	/*BACKGROUND: url(bg_new.gif);*/
+        /*background-color: #F0E0B0;*/
+        background-color: Bisque ;
+}
+
+/*overall width of document plus auto margins to make it central*/
+
+#wrapper {
+	clear:both;
+	width: 900px;
+	height:auto;
+	margin: 0 auto;
+	padding:20;
+	text-align:justify;
+	BACKGROUND: url(background.gif) #ffffff repeat-y left 100%;
+}
+
+/*Can be used for further design enhancements*/
+
+#wrapper2 {
+	clear:both;
+	width: 900px;
+	height:0px;
+	margin: 0px auto;
+	padding:10 17 1 17;
+	text-align:justify;
+	BACKGROUND: url(shadow_top.gif) no-repeat left 100%;
+}
+
+#headerwrap {
+	width:900;
+	left:15px;
+	height:auto;
+	margin:0;
+	padding:15;
+ 	font: arial, helvetica, sans-serif;
+	text-align:justify;
+	FONT-SIZE: 11pt;
+}
+
+#navwrap {
+	width:870px;
+	left:15px;
+	height:auto;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+/*___________________________________________*/
+
+/*Enables relative absolute positioning to occur*/
+
+#innerwrap {
+	clear:both;
+	position:relative;
+	width:900px;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+
+
+/*Doesn't use positioning in order to enable the footer to always be below the content.*/
+
+#contentwrap {
+	width: 685px;
+	height:auto;
+	margin: 0 0 0 0;
+	padding:0px;
+}
+
+#linkswrap {
+	position:absolute;
+	top:0;
+	left:700px;
+	width: 215px;
+	height:auto;
+	margin: -5pt;
+	padding:0;
+}
+
+#footerwrap {
+	clear:both;
+	width:900px;
+	height:auto;
+	margin:0 auto;
+	padding:18;
+	BACKGROUND: url(shadow_bottom.gif) no-repeat;
+}
+
+#top {
+	height: 5px;
+}
+
+
+/* DESIGN
+_________________________________________________*/
+
+
+#nav{
+	margin: 5px 0;
+	padding: 10px;
+	border: 0px dotted #cccccc;
+	BACKGROUND: #eeeeee;
+	FONT-SIZE: 12pt
+}
+
+#header, #content, #links, #footer {
+	margin: 5px 0;
+	padding: 10px;
+	border: 0px dotted #cccccc;
+}
+
+#content{
+	BORDER-RIGHT: #cccccc 1px dotted;
+	FONT-SIZE: 11pt
+
+}
+
+table{
+ 	font: 110%, arial, helvetica, sans-serif;
+	text-align:block;
+}
+
+#header a {
+	display:block;
+	background-position : center center;
+	background-repeat : no-repeat;
+	height:130px;
+	width:auto;
+}
+
+#header span {
+	display:none;
+}
+
+#nav {
+	text-align:center;
+}
+
+#nav ul {
+	margin:0pt;
+	padding:0;
+}
+
+#nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#nav a {
+	padding:5px;
+}
+
+H1 {
+	FONT-SIZE: 1.25em
+}
+H2{
+	FONT-SIZE: 10pt
+}
+ul {
+
+}
+
+li {
+	margin-top:0pt;
+	margin-left:-13pt;
+	padding:-8pt;
+}
+#footer {
+	text-align:center;
+}
+blockquote {
+	FONT-SIZE: 10pt
+}
+A {
+
+   TEXT-DECORATION:NONE;
+    COLOR:   	#3399CC;
+} 
+A:visited {
+   TEXT-DECORATION: NONE
+    COLOR: #3399CC;
+}
+A:active {
+   TEXT-DECORATION: NONE
+   COLOR: #0000CC;
+}
+A:hover {
+   TEXT-DECORATION: NONE;
+    COLOR: #0000CC;
+
+}
+.title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px;
+	COLOR: #6699cc;
+ }
+.links {
+	BACKGROUND: url(flower.gif) no-repeat left top; 
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; BACKGROUND: url(quad.gif) no-repeat left center; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; 
+}
