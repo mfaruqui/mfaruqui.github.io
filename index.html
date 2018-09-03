@@ -82,6 +82,12 @@ language processing and machine learning problems.
   <div id="split_emnlp18_abs" style="display:none">
   <blockquote>
   <pre>
+Split and rephrase is the task of breaking down a sentence into shorter ones that together convey the same meaning.
+We extract a rich new dataset for this task by mining Wikipedia's edit history: WikiSplit contains one million
+naturally occurring sentence rewrites, providing sixty times more distinct split examples and a ninety times larger
+vocabulary than the WebSplit corpus introduced by Narayan et al. (2017) as a benchmark for this task. Incorporating
+WikiSplit as training data produces a model with qualitatively better predictions that score 32 BLEU points above
+the prior best result on the WebSplit benchmark.
   </pre>
   </blockquote>
   </div>
@@ -139,7 +145,7 @@ questions for reading comprehension.
   <pre>
     @inproceedings{pavlick:emnlp18,
       author = {Faruqui, Manaal and Pavlick, Ellie and Tenney, Ian and Das, Dipanjan},
-      title = {AtomicWikiEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse},
+      title = {WikiAtomicEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse},
       booktitle = {Proc. of EMNLP},
       year = {2018},
     }
@@ -150,12 +156,18 @@ questions for reading comprehension.
   <div id="edit_emnlp18_abs" style="display:none">
   <blockquote>
   <pre>
+We release a corpus of atomic insertion edits: instances in which a human editor has inserted a single
+contiguous span of text into an existing sentence. Our corpus is derived from Wikipedia edit history
+and contains 43 million sentences across 8 different languages. We argue that the signal contained in
+these edits is valuable for research in semantics and dis-course, and that such signal differs from
+that found in conventional language modeling corpora. We provide experimental evidence from both a
+corpus linguistics and a language modeling perspective to support these claims.
   </pre>
   </blockquote>
   </div>
 
   <ul>
-  <li><a href="http://arxiv.org/abs/1808.09422">AtomicWikiEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse</a><br>
+  <li><a href="http://arxiv.org/abs/1808.09422">WikiAtomicEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse</a><br>
   Manaal Faruqui, Ellie Pavlick, Ian Tenney, Dipanjan Das, <b>EMNLP 2018</b><br>
   [<a onClick="javascript:urchinTracker('/edit_emnlp18/abstract');" href="javascript:copy(edit_emnlp18, edit_emnlp18_abs)">abstract</a>]&nbsp;&nbsp;
   [<a onClick="javascript:urchinTracker('/edit_emnlp18/bibtex');" href="javascript:copy(edit_emnlp18, edit_emnlp18_bib)">bibtex</a>]&nbsp;&nbsp;
